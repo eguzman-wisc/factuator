@@ -4,7 +4,9 @@ A Python bot to help maintain fancier features of the MOTHER wiki at CHM.
 
 ## Requirements
 
-    pip3 install mwclient mwparserfromhell requests coloredlogs psycopg2
+    python3 -m virtualenv .venv
+    source .venv/bin/activate
+    pip3 install -r requirements.txt
 
 ## Examples
 
